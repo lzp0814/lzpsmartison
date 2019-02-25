@@ -1,0 +1,442 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+  font-size: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background: url(../images/bg_9b9dcb65ff@2x.png);
+  height: 800px;
+}
+
+#box {
+  width: 450px;
+  height: 552px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -243px;
+  margin-left: -225px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 9px 30px -6px rgba(0, 0, 0, 0.2), 0 18px 20px -10px rgba(0, 0, 0, 0.04), 0 18px 20px -10px rgba(0, 0, 0, 0.04), 0 10px 20px -10px rgba(0, 0, 0, 0.04);
+}
+
+#box .logo {
+  background: url(../images/smartisan_4ada7fecea@2x.png);
+  background-size: 160px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 92px;
+  margin: 23px 0 50px;
+  padding: 75px 0 0;
+  position: relative;
+}
+
+#box .logo h1 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  border-bottom: 0;
+  box-shadow: none;
+  height: auto;
+  color: #333;
+  font-weight: 400;
+}
+
+#box .logo h1 span {
+  font-weight: 700;
+}
+
+#box .box-input {
+  padding: 0 40px 22px;
+}
+
+#box .box-input .username {
+  clear: both;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+#box .box-input .remember {
+  margin: 15px 5px 25px;
+  height: 12px;
+  clear: both;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+#box .box-input .remember .auto {
+  color: #999;
+  float: left;
+  font-size: 12px;
+  cursor: pointer;
+  padding-left: 22px;
+}
+
+#box .box-input .remember .auto .checkbox {
+  position: absolute;
+  top: -4px;
+  left: -2px;
+  background: url(../images/checkbox_f49f6e4acf.png) 0 2px no-repeat;
+  background-position: 0 -18px;
+  float: left;
+  height: 20px;
+  width: 20px;
+}
+
+#box .box-input .remember .auto .checked {
+  background: url(../images/checkbox_f49f6e4acf.png) 0 2px no-repeat;
+}
+
+#box .box-input .remember a {
+  color: #5079d9;
+  cursor: pointer;
+  text-decoration: none;
+  -moz-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#box .box-input .remember .forgotpassword {
+  float: right;
+  margin-right: 3px;
+  font-size: 12px;
+  width: 50px;
+  white-space: nowrap;
+}
+
+#box .box-input .remember .registercloud {
+  margin-left: 0;
+  float: right;
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 8px;
+}
+
+#box .box-input .remember .registercloud:after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 11px;
+  background-color: #e5e5e5;
+  margin-left: 9px;
+  margin-top: -2px;
+  vertical-align: middle;
+}
+
+#box .box-input .input {
+  background: #fff;
+  box-shadow: 0 3px 5px -4px rgba(0, 0, 0, 0.4) inset, -1px 0 3px -2px rgba(0, 0, 0, 0.1) inset;
+  border: #ccc solid 1px;
+  border-radius: 6px;
+  font-size: 18px;
+  height: 46px;
+  line-height: 46px;
+  opacity: .618;
+  position: relative;
+  -webkit-transition: opacity .3s ease-in;
+  transition: opacity .3s ease-in;
+}
+
+#box .box-input .input .icon {
+  background: -webkit-linear-gradient(#f8f8f8, #fafafa);
+  background: -moz-linear-gradient(#f8f8f8, #fafafa);
+  background: -ms-linear-gradient(#f8f8f8, #fafafa);
+  background: -o-linear-gradient(#f8f8f8, #fafafa);
+  border-radius: 6px 0 0 6px;
+  border-right: solid 1px #ccc;
+  box-shadow: 1px 0 3px -1px rgba(0, 0, 0, 0.1);
+  float: left;
+  height: 46px;
+  width: 46px;
+  overflow: hidden;
+}
+
+#box .box-input .input .icon i {
+  background: url(../images/dialog-input-icons_ff627ad6dc.png) no-repeat;
+  background-image: -webkit-image-set(url(../images/dialog-input-icons_ff627ad6dc.png) 1x, url(../images/dialog-input-icons_ff627ad6dc@2x.png) 2x);
+  background-position: -1px 0;
+  cursor: pointer;
+  display: block;
+  height: 46px;
+  text-indent: -9999em;
+  width: 46px;
+}
+
+#box .box-input .input input {
+  width: 293px;
+  height: 22px;
+  padding: 12px 12px 12px 15px;
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  font-size: 16px;
+  position: relative;
+  z-index: 10;
+  -webkit-border-radius: 7px;
+  margin-top: -17px;
+  outline: none;
+}
+
+#box .box-input .input .placeholder {
+  color: #bebebe;
+  float: left;
+  font-size: 16px;
+  position: absolute;
+  left: 62px;
+  top: 0;
+}
+
+#box .box-input .input:hover {
+  border: 1px solid #6b93f2;
+}
+
+#box .box-input .password > .input > .icon > i {
+  background-position: -49px 0;
+}
+
+#box .box-input .btn-wrapper {
+  margin: 30px 0 0;
+  clear: both;
+}
+
+#box .box-input .btn-wrapper .btn {
+  background: linear-gradient(#6383c6, #4262af);
+  border-radius: 6px;
+  clear: both;
+  cursor: pointer;
+  height: 46px;
+  line-height: 46px;
+  margin: 0 0 12px;
+  padding: 1px;
+  user-select: none;
+  text-align: center;
+  text-shadow: rgba(255, 255, 255, 0.496094) 0 1px 0;
+  opacity: 0.5;
+}
+
+#box .box-input .btn-wrapper .btn:hover {
+  opacity: 1;
+}
+
+#box .box-input .btn-wrapper .btn a {
+  background: linear-gradient(#6f97e5, #527ed9);
+  box-shadow: inset 0 1px 2px #7ea1e8;
+  color: #fff;
+  text-shadow: #4f70b3 0 -1px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+  font-size: 18px;
+  border: none;
+}
+
+#box .box-input .info-wrapper {
+  margin: 30px 0 0;
+  padding-top: 23px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+  border-top: 1px solid #d9d9d9;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+}
+
+#box .box-input .info-wrapper li {
+  color: #999;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+#box .box-input .info-wrapper > ul > li:first-child {
+  float: left;
+}
+
+#box .box-input .info-wrapper > li {
+  color: #999;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+#box .box-input .info-wrapper .login-three li {
+  width: 20px;
+  height: 17px;
+  margin-left: 15px;
+  float: left;
+  cursor: pointer;
+  background-image: url(../images/icons_c3a3154da5.png);
+  background-image: -webkit-image-set(url(../images/icons_c3a3154da5.png) 1x, url(../images/icons_c3a3154da5@2x.png) 2x);
+  background-size: 110px 17px;
+  background-position: 1px 0;
+  background-repeat: no-repeat;
+  transition: all 1s ease;
+}
+
+#box .box-input .info-wrapper .login-three li a {
+  color: #999;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+#box .box-input .info-wrapper .login-three li.text {
+  background-image: none;
+  margin-left: 0;
+  width: auto;
+  font-size: 100%;
+  cursor: default;
+}
+
+#box .box-input .info-wrapper .login-three li.wechat {
+  margin-left: 25px;
+}
+
+#box .box-input .info-wrapper .login-three li.wechat:hover {
+  background-image: -webkit-image-set(url(../images/icons-hover_7b3065c847.png) 1x, url(../images/icons-hover_7b3065c847@2x.png) 2x);
+}
+
+#box .box-input .info-wrapper .login-three li.weibo {
+  background-position: -30px 0;
+}
+
+#box .box-input .info-wrapper .login-three li.weibo:hover {
+  background-image: -webkit-image-set(url(../images/icons-hover_7b3065c847.png) 1x, url(../images/icons-hover_7b3065c847@2x.png) 2x);
+}
+
+#box .box-input .info-wrapper .login-three li.qq {
+  background-position: -62px 0;
+}
+
+#box .box-input .info-wrapper .login-three li.qq:hover {
+  background-image: -webkit-image-set(url(../images/icons-hover_7b3065c847.png) 1x, url(../images/icons-hover_7b3065c847@2x.png) 2x);
+}
+
+#box .box-input .info-wrapper .login-three li.alipay {
+  background-position: -92px 0;
+}
+
+#box .box-input .info-wrapper .login-three li.alipay:hover {
+  background-image: -webkit-image-set(url(../images/icons-hover_7b3065c847.png) 1x, url(../images/icons-hover_7b3065c847@2x.png) 2x);
+}
+
+#box .box-input .info-wrapper .ng-box {
+  float: right;
+}
+
+#box .box-input .info-wrapper .ng-box .ng-binding {
+  color: #999;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: right;
+}
+
+#box .box-input .info-wrapper .ng-box .ng-binding .smartisan-icon {
+  margin-top: -1px;
+  display: inline-block;
+  font-family: SmartisanIconFont;
+  vertical-align: middle;
+}
+
+#box .box-input .info-wrapper .ng-box .ng-binding .smartisan-icon::before {
+  content: "C";
+}
+
+#box .box-input .info-wrapper .ng-box .ng-binding:hover {
+  color: #406dd6;
+}
